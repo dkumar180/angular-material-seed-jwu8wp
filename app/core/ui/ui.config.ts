@@ -1,5 +1,5 @@
 export const config = {
-  title: 'Angular Seed',
+  title: 'Code Doodler',
   fluid: true,
   links: [
     { label: 'Home', icon: 'home', link: ['/', 'home'] },
