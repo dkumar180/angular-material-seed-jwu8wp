@@ -8,6 +8,7 @@ import { StateModule } from './state/state.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AgGridModule } from 'ag-grid-angular';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { AppComponent } from './app.component';
     StateModule,
     AppRoutingModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AgGridModule.withComponents(null)
   ],
   declarations: [
     AppComponent,
