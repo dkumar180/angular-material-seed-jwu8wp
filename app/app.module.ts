@@ -21,7 +21,6 @@ import { AgGridModule } from 'ag-grid-angular';
     AppRoutingModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AgGridModule.withComponents(null)
   ],
   declarations: [
     AppComponent,

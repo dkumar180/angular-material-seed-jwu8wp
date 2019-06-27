@@ -4,5 +4,6 @@ export const config = {
   links: [
     { label: 'Home', icon: 'home', link: ['/', 'home'] },
     { label: 'About', icon: 'info', link: ['/', 'about'] },
+    { label: 'Subject Matrix', icon: 'info', link: ['/', 'sm'] },
   ],
 }
