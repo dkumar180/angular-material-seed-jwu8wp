@@ -12,7 +12,8 @@ import { HomeComponent } from './home/home.component';
   ],
   declarations: [
     AboutComponent,
-    HomeComponent
+    HomeComponent,
+    MatStepperModule
   ],
 })
 export class PagesModule { }
