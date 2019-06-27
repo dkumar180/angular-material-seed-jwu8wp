@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import url(https://unpkg.com/@angular/material@2.0.0-beta.10/prebuilt-themes/indigo-pink.css);
+/*@import url(https://unpkg.com/@angular/material@2.0.0-beta.10/prebuilt-themes/pink-bluegrey.css);*/
+/*@import url(https://unpkg.com/@angular/material@2.0.0-beta.10/prebuilt-themes/purple-green.css);*/
+/*@import url(https://unpkg.com/@angular/material@2.0.0-beta.10/prebuilt-themes/deeppurple-amber.css);*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.mat-toolbar .mat-icon {
+  cursor: pointer;
+}
+
+.mat-toolbar .demo-toolbar {
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+md-card {
+  margin-bottom: 20px;
+}

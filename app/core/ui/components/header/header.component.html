@@ -1,0 +1,15 @@
+
+<md-toolbar color="primary">
+  <div class="demo-toolbar">
+    <h1>{{title}}</h1>
+    <div>
+      <button md-button  *ngFor="let link of links"
+      [routerLinkActiveOptions]="{exact: true}"
+      routerLinkActive="active" [routerLink]="link.link" >
+        <i *ngIf="link.icon" [class]="link.icon"></i>
+        <md-icon *ngIf="link.icon"  class="md-24"> {{link.icon}}</md-icon>
+        {{link.label}}
+      </button>
+    </div>
+  </div>
+</md-toolbar>
