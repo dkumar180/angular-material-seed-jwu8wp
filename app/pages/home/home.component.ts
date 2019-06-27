@@ -9,6 +9,10 @@ import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 })
 export class HomeComponent implements OnInit  {
 
+  isLinear = false;
+  firstFormGroup: FormGroup;
+  secondFormGroup: FormGroup;
+
   ngOnInit() {
   }
 }
