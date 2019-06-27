@@ -4,7 +4,6 @@ import { StateModule } from '../state/state.module';
 
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
-import { CoverpageComponent } from './coverpage/coverpage.component';
 
 @NgModule({
   imports: [
@@ -14,7 +13,6 @@ import { CoverpageComponent } from './coverpage/coverpage.component';
   declarations: [
     AboutComponent,
     HomeComponent,
-    CoverpageComponent,
   ],
 })
 export class PagesModule { }
